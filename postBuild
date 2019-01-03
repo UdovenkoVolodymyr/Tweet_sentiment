@@ -1,0 +1,7 @@
+#git clone https://github.com/GuitarsAI/testNGrokTensorBoard.git dire
+#wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip > /dev/null 2>&1
+unzip ngrok-stable-linux-amd64.zip > /dev/null 2>&1
+#jupyter contrib nbextension install --user
+#jupyter nbextension enable hide_input/main
+#jupyter nbextension enable python-markdown/main
+jupyter trust LT_test.ipynb
