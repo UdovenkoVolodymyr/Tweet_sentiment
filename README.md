@@ -7,4 +7,4 @@ http://htmlpreview.github.io/?https://github.com/UdovenkoVolodymyr/Tweet_sentime
 
 
 ## Model implementation and results visualization in MyBinder
-To analyze the tweets of the person you are interested in, launch Binder by link [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/UdovenkoVolodymyr/Tweet_sentiment/master?filepath=Tweet_sentiment.ipynb) Then open Tweet_sentiment.ipynb, all instructions inside
+To analyze the tweets of the person you are interested in, launch Binder by link [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/UdovenkoVolodymyr/Tweet_sentiment/master?filepath=Tweet_sentiment.ipynb) All instructions inside
