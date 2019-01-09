@@ -8,6 +8,7 @@ def main_func(screen_name, tweet_num=5):
     import pandas as pd
     from IPython.display import display, HTML
     pd.set_option('display.max_columns', 7)
+    pd.options.display.max_colwidth = 1000
 
     consumer_key = 'NgbszsMy18esxzBRpnS6YJSg5'
     consumer_secret = 'fUlGwElm7B7Q5UUl99TdnMewBA3xW9Cw5xmzBAq1xU9j5O6wUa'
