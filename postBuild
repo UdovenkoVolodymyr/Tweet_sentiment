@@ -1,2 +1,2 @@
-unzip ngrok-stable-linux-amd64.zip > /dev/null 2>&1
+#unzip ngrok-stable-linux-amd64.zip > /dev/null 2>&1
 jupyter trust Tweet_sentiment.ipynb
