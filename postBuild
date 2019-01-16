@@ -1,2 +1,4 @@
-#unzip ngrok-stable-linux-amd64.zip > /dev/null 2>&1
+unzip ngrok-stable-linux-amd64.zip > /dev/null 2>&1
+python -m nltk.downloader stopwords
+python -m nltk.downloader wordnet
 jupyter trust Tweet_sentiment.ipynb
