@@ -1,3 +1,4 @@
+openjdk-8-jdk
 ipython
 git
 curl
