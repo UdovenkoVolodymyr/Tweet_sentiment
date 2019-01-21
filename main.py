@@ -37,11 +37,7 @@ def main_func(user_screen_name, tweets_count, tweets_to_print):
     pd.set_option('display.max_rows', 1000)
     pd.options.display.max_colwidth = 1000
 
-    stanford_ner_dir = '/home/vova/StanfordParser/stanford-ner-2018-10-16/'
-    # eng_model_filename = stanford_ner_dir + 'classifiers/english.all.3class.distsim.crf.ser.gz'
-    eng_model_filename = stanford_ner_dir + 'classifiers/english.conll.4class.distsim.crf.ser.gz'
-    my_path_to_jar = stanford_ner_dir + 'stanford-ner.jar'
-    st = StanfordNERTagger(model_filename=eng_model_filename, path_to_jar=my_path_to_jar)
+    st = StanfordNERTagger(model_filename='english.all.3class.distsim.crf.ser.gz', path_to_jar='stanford-ner.jar')
 
     naturalLanguageUnderstanding = NaturalLanguageUnderstandingV1(
         version='2018-11-16',
